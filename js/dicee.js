@@ -6,7 +6,7 @@ document.querySelector('.img1').setAttribute('src',"images/"+arr[i]);
 document.querySelector('.img2').setAttribute('src',"images/"+arr[j]);
 
 if (i > j) {
-  document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
+  document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
 }
 else if (j > i) {
   document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
